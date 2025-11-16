@@ -138,7 +138,7 @@ def main():
     TOPIC = '22873'
     
     # Cambiar a True para usar codificación de 3 bytes (Sección 3.4)
-    USE_ENCODING = False  # Cambiar a True para la sección 3.4
+    USE_ENCODING = True  
     
     # Crear y ejecutar producer
     producer = WeatherStationProducer(
